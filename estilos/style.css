@@ -85,8 +85,8 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     height: 100%;
-    width: calc(100% - 43px);
-    transform: translateY(-8px);
+    width: calc(100% - 47px);
+    transform: translateY(-10px);
     padding: 4px;
 }
 
@@ -97,7 +97,7 @@ div.campo >input:focus-within{
 div.campo > span{
     color: white;
     font-size: 2em;
-    padding: 3px;
+    padding: 5px;
 }
 
 form > input[type=submit]{
