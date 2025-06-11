@@ -21,6 +21,10 @@
         float: right;
         width: 70%;
     }
+
+    div#formulário > p{
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width:992px) {
