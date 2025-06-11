@@ -4,20 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
-    <section id="login">
-        <div id="imagem">
-            foto
-        </div>
-        <div id="formulário">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a), faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form action="login.php" method="post">
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulário">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a), faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                <div class="campo">
 
-            </form>
-        </div>
-    </section>
+                    <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+
+                    <input type="email" name="email" id="iemail" placeholder="digite seu email" required>
+                    <label for="iemail">email</label>
+                </div>
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                    key
+                    </span>
+                    <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required minlength="8" maxlength="15">
+                    <label for="isenha">senha</label>
+                </div>
+                <input type="submit" value="Enviar">
+                <a href="esqueci.html">Esqueci a senha</a>
+                <span class="material-symbols-outlined">
+                mail
+                </span>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

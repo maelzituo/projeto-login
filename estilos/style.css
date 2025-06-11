@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
-rgb(14, 17, 26)
+/*rgb(14, 17, 26)
 rgb(48, 84, 158)
-rgb(70, 81, 151)
+rgb(70, 81, 151)*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, hmtl{
+    background-color: rgb(20, 24, 36);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(73, 120, 134, 0.411);
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+}
+
+div#imagem{
+    display: block;
+    background: rgb(14, 17, 26) url(../imagens/games_pixabay.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+div#formulário{
+    display: block;
+    padding: 10px;
+}
+
+div#formulário > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulário > p{
+    font-size: 0.9em;
+    text-align: justify;
+}
