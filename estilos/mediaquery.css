@@ -44,4 +44,12 @@
         width: 50%;
         height: 100%;
     }
+
+    div#formulário > h1{
+        font-size: 2em;
+    }
+
+    div#formulário > p{
+        font-size: 1.2em;
+    }
 }
